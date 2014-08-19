@@ -1,0 +1,16 @@
+[
+{
+  "modid": "examplemod",
+  "name": "Pat Tech",
+  "description": "The new GregTech replacement mod for minecraft 1.7.10.",
+  "version": "1.0.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Patrick13542"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
