@@ -1,4 +1,4 @@
 Pat-Tech
 ========
 
-Pat-Tech is a addon to the popular minecraft mod IndustrialCraft 2.
+Pat-Tech is an addon to the popular minecraft mod IndustrialCraft 2.
