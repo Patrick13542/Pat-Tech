@@ -1,0 +1,162 @@
+[21:27:47] [main/INFO]: No arguments specified, assuming client.
+[21:27:48] [main/INFO]: Extra: []
+[21:27:48] [main/INFO]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Tim/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:27:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:27:48] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:27:48] [main/INFO]: Forge Mod Loader version 7.10.84.1217 for Minecraft 1.7.10 loading
+[21:27:48] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_45, running on Windows 8:amd64:6.2, installed at C:\Program Files\Java\jdk1.7.0_45\jre
+[21:27:48] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:27:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:27:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:27:48] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[21:27:51] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[21:27:51] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:27:51] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:27:52] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:27:52] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:27:52] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:27:57] [main/INFO]: Setting user: Player15
+[21:27:59] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:28:00] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@78bc38a1. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at net.minecraftforge.common.MinecraftForge.<clinit>(MinecraftForge.java:21) [MinecraftForge.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.registerFluid(FluidRegistry.java:83) [FluidRegistry.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.<clinit>(FluidRegistry.java:50) [FluidRegistry.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.<clinit>(ForgeHooksClient.java:425) [ForgeHooksClient.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:432) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[21:28:00] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@605d53ae. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at net.minecraftforge.common.MinecraftForge.<clinit>(MinecraftForge.java:22) [MinecraftForge.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.registerFluid(FluidRegistry.java:83) [FluidRegistry.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.<clinit>(FluidRegistry.java:50) [FluidRegistry.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.<clinit>(ForgeHooksClient.java:425) [ForgeHooksClient.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:432) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[21:28:00] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@f20f5ef. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at net.minecraftforge.common.MinecraftForge.<clinit>(MinecraftForge.java:23) [MinecraftForge.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.registerFluid(FluidRegistry.java:83) [FluidRegistry.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.<clinit>(FluidRegistry.java:50) [FluidRegistry.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.<clinit>(ForgeHooksClient.java:425) [ForgeHooksClient.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:432) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[21:28:02] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@740138f0. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.<init>(FMLCommonHandler.java:90) [FMLCommonHandler.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.<clinit>(FMLCommonHandler.java:77) [FMLCommonHandler.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:188) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:480) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[21:28:02] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[21:28:02] [Client thread/INFO]: MinecraftForge v10.13.1.1217 Initialized
+[21:28:02] [Client thread/INFO]: Replaced 182 ore recipies
+[21:28:02] [Client thread/INFO]: Completed early MinecraftForge initialization
+[21:28:02] [Client thread/INFO]: Config directory created successfully
+[21:28:02] [Client thread/INFO]: Searching C:\Users\Tim\Documents\GitHub\Pat-Tech\Pat-Tech-Forge\eclipse\mods for mods
+[21:28:09] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[21:28:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, techmod] at CLIENT
+[21:28:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, techmod] at SERVER
+[21:28:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Pat-Tech
+[21:28:10] [Client thread/INFO]: Processing ObjectHolder annotations
+[21:28:10] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[21:28:10] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[21:28:10] [Client thread/INFO]: Applying holder lookups
+[21:28:10] [Client thread/INFO]: Holder lookups applied
+[21:28:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:28:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:28:11] [Thread-5/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:28:11] [Thread-5/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:28:11] [Thread-5/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:28:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:28:11] [Sound Library Loader/INFO]: Sound engine started
+[21:28:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:28:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:28:23] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[21:28:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Pat-Tech
+[21:28:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:28:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:28:24] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:28:24] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:28:24] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:28:24] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:28:24] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:28:25] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:28:25] [Sound Library Loader/INFO]: Sound engine started
+[21:28:45] [Client thread/INFO]: Stopping!
+[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 

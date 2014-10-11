@@ -1,0 +1,30 @@
+package com.hs.main;
+
+import com.hs.reference.Reference;
+
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Reference.MODID , name = Reference.NAME , version = Reference.VERSION )
+public class Main {
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		
+	}
+	
+	@EventHandler
+	public void Init(FMLInitializationEvent event) {
+
+	}
+
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+	}
+	
+}
