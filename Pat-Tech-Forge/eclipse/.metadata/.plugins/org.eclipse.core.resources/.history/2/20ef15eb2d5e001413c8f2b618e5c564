@@ -1,0 +1,12 @@
+package com.hs.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class ptFurnace_Idle extends Block {
+
+	public ptFurnace_Idle(Material arg0) {
+		super(arg0);
+	}
+
+}

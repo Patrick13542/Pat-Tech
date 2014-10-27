@@ -1,0 +1,8 @@
+package com.hs.proxy;
+
+public class CommonProxy {
+	
+	public void RegisterProxies() {
+
+	}
+}

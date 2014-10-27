@@ -1,0 +1,13 @@
+package com.hs.proxy;
+
+import com.hs.blocks.TileEntityWindMill;
+import com.hs.renderer.RenderWindMill;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
+
+public class ClientProxy extends CommonProxy {
+	
+	public void RegisterProxies() {
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityWindMill.class, new RenderWindMill());
+	}
+}

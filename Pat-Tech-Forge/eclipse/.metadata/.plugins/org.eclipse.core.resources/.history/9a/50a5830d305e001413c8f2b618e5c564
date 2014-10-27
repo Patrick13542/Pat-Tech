@@ -1,0 +1,42 @@
+package com.hs.main;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+import com.hs.lib.Reference;
+import com.hs.proxy.CommonProxy;
+import com.techmod.blocks.ptFurnace_Active;
+import com.techmod.blocks.ptFurnace_Idle;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Reference.MODID , name = Reference.NAME , version = Reference.VERSION )
+public class Main {
+	
+@SidedProxy(clientSide="com.hs.proxy.ClientProxy", serverSide="com.hs.proxy.CommonProxy")
+public static CommonProxy proxy;
+
+//Machines
+public static Block ptFurnace_Idle = new ptFurnaceClass(false).setBlockName("ptFurnace_Idle").setHardness(3.5F).setCreativeTab(CreativeTabs.tabBlock);
+public static Block ptFurnace_Active = new ptFurnaceClass(true).setBlockName("ptFurnace_Active").setHardness(3.5F);
+
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+	}
+	
+	@EventHandler
+	public void Init(FMLInitializationEvent event) {
+		proxy.RegisterProxies();
+	}
+
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.hs.items;
+
+import net.minecraft.item.Item;
+
+public class ItemWindMill extends Item {
+
+}

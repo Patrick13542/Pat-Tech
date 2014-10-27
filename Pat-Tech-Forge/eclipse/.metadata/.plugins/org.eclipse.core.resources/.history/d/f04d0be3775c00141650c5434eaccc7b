@@ -1,0 +1,12 @@
+package com.hs.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class WindMill extends Block {
+
+	public WindMill(Material arg0) {
+		super(arg0);
+	}
+
+}

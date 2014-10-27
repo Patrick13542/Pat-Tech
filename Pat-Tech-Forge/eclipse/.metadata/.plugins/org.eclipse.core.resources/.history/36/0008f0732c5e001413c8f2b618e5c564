@@ -1,0 +1,7 @@
+package com.hs.blocks;
+
+import net.minecraft.block.Block;
+
+public class ptFurnace extends Block {
+
+}
