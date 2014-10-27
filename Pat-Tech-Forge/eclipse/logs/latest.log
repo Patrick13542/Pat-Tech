@@ -1,27 +1,27 @@
-[21:27:47] [main/INFO]: No arguments specified, assuming client.
-[21:27:48] [main/INFO]: Extra: []
-[21:27:48] [main/INFO]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Tim/.gradle/caches/minecraft/assets, --version, 1.7.10]
-[21:27:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[21:27:48] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[21:27:48] [main/INFO]: Forge Mod Loader version 7.10.84.1217 for Minecraft 1.7.10 loading
-[21:27:48] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_45, running on Windows 8:amd64:6.2, installed at C:\Program Files\Java\jdk1.7.0_45\jre
-[21:27:48] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[21:27:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:27:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:27:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:27:48] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[21:27:51] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[21:27:51] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:27:51] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[21:27:52] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[21:27:52] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[21:27:52] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[21:27:57] [main/INFO]: Setting user: Player15
-[21:27:59] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:28:00] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@78bc38a1. This is a critical error and should be impossible
+[15:33:38] [main/INFO]: No arguments specified, assuming client.
+[15:33:38] [main/INFO]: Extra: []
+[15:33:38] [main/INFO]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Tim/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[15:33:38] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:33:38] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:33:38] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:33:38] [main/INFO]: Forge Mod Loader version 7.10.84.1217 for Minecraft 1.7.10 loading
+[15:33:38] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_45, running on Windows 8:amd64:6.2, installed at C:\Program Files\Java\jdk1.7.0_45\jre
+[15:33:38] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:33:38] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:33:38] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:33:38] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:33:38] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:33:38] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:33:39] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[15:33:41] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[15:33:41] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:33:41] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:33:42] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[15:33:42] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[15:33:42] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:33:46] [main/INFO]: Setting user: Player125
+[15:33:48] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:33:48] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@358ecb8d. This is a critical error and should be impossible
 java.lang.Throwable
 	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
@@ -45,7 +45,7 @@ java.lang.Throwable
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[21:28:00] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@605d53ae. This is a critical error and should be impossible
+[15:33:49] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@1e95aeb7. This is a critical error and should be impossible
 java.lang.Throwable
 	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
@@ -69,7 +69,7 @@ java.lang.Throwable
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[21:28:00] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@f20f5ef. This is a critical error and should be impossible
+[15:33:49] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@75018010. This is a critical error and should be impossible
 java.lang.Throwable
 	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
@@ -93,7 +93,7 @@ java.lang.Throwable
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[21:28:02] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@740138f0. This is a critical error and should be impossible
+[15:33:49] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@2d18772e. This is a critical error and should be impossible
 java.lang.Throwable
 	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
@@ -116,47 +116,239 @@ java.lang.Throwable
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[21:28:02] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[21:28:02] [Client thread/INFO]: MinecraftForge v10.13.1.1217 Initialized
-[21:28:02] [Client thread/INFO]: Replaced 182 ore recipies
-[21:28:02] [Client thread/INFO]: Completed early MinecraftForge initialization
-[21:28:02] [Client thread/INFO]: Config directory created successfully
-[21:28:02] [Client thread/INFO]: Searching C:\Users\Tim\Documents\GitHub\Pat-Tech\Pat-Tech-Forge\eclipse\mods for mods
-[21:28:09] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[21:28:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, techmod] at CLIENT
-[21:28:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, techmod] at SERVER
-[21:28:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Pat-Tech
-[21:28:10] [Client thread/INFO]: Processing ObjectHolder annotations
-[21:28:10] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[21:28:10] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[21:28:10] [Client thread/INFO]: Applying holder lookups
-[21:28:10] [Client thread/INFO]: Holder lookups applied
-[21:28:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:28:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[21:28:11] [Thread-5/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[21:28:11] [Thread-5/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:28:11] [Thread-5/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[21:28:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:28:11] [Sound Library Loader/INFO]: Sound engine started
-[21:28:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:28:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:28:23] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[21:28:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Pat-Tech
-[21:28:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:28:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[21:28:24] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:28:24] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:28:24] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[21:28:24] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[21:28:24] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:28:24] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[21:28:25] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:28:25] [Sound Library Loader/INFO]: Sound engine started
-[21:28:45] [Client thread/INFO]: Stopping!
-[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[21:28:45] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:33:49] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[15:33:49] [Client thread/INFO]: MinecraftForge v10.13.1.1217 Initialized
+[15:33:49] [Client thread/INFO]: Replaced 182 ore recipies
+[15:33:50] [Client thread/INFO]: Completed early MinecraftForge initialization
+[15:33:50] [Client thread/INFO]: Searching C:\Users\Tim\Documents\GitHub\Pat-Tech\Pat-Tech-Forge\eclipse\mods for mods
+[15:33:55] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[15:33:55] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, techmod] at CLIENT
+[15:33:55] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, techmod] at SERVER
+[15:33:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Pat-Tech
+[15:33:56] [Client thread/INFO]: Processing ObjectHolder annotations
+[15:33:56] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[15:33:56] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[15:33:56] [Client thread/INFO]: Applying holder lookups
+[15:33:56] [Client thread/INFO]: Holder lookups applied
+[15:33:56] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:33:56] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[15:33:57] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[15:33:57] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:33:57] [Thread-6/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[15:33:57] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:33:57] [Sound Library Loader/INFO]: Sound engine started
+[15:33:59] [Client thread/ERROR]: Using missing texture, unable to load techmod:textures/blocks/bottum.png
+java.io.FileNotFoundException: techmod:textures/blocks/bottum.png
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:58) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:125) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:90) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(SourceFile:61) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(SourceFile:52) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:537) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[15:33:59] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_windMill.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_windMill.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:125) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:90) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(SourceFile:61) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(SourceFile:52) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:537) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[15:34:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:34:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_ItemWindMill.png
+java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_ItemWindMill.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:125) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:90) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(SourceFile:61) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(SourceFile:52) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[15:34:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:34:00] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[15:34:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Pat-Tech
+[15:34:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_ItemWindMill.png
+java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_ItemWindMill.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:125) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:90) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(SourceFile:136) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SourceFile:104) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SourceFile:92) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:598) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:541) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[15:34:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:34:00] [Client thread/ERROR]: Using missing texture, unable to load techmod:textures/blocks/bottum.png
+java.io.FileNotFoundException: techmod:textures/blocks/bottum.png
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:58) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:125) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:90) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(SourceFile:136) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SourceFile:104) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SourceFile:92) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:598) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:541) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[15:34:00] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_165_windMill.png
+java.io.FileNotFoundException: minecraft:textures/blocks/MISSING_ICON_BLOCK_165_windMill.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:125) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:90) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(SourceFile:136) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SourceFile:104) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SourceFile:92) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:598) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:541) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:867) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+[15:34:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:34:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:34:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[15:34:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[15:34:01] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:34:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:34:01] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[15:34:01] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[15:34:01] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:34:01] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[15:34:02] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:34:02] [Sound Library Loader/INFO]: Sound engine started
+[15:34:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:34:15] [Server thread/INFO]: Generating keypair
+[15:34:16] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[15:34:16] [Server thread/INFO]: Applying holder lookups
+[15:34:16] [Server thread/INFO]: Holder lookups applied
+[15:34:16] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@6dfdf179)
+[15:34:16] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@6dfdf179)
+[15:34:16] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@6dfdf179)
+[15:34:16] [Server thread/INFO]: Preparing start region for level 0
+[15:34:17] [Server thread/INFO]: Preparing spawn area: 21%
+[15:34:19] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:34:19] [Netty Client IO #0/INFO]: Server protocol version 1
+[15:34:19] [Netty IO #1/INFO]: Client protocol version 1
+[15:34:19] [Netty IO #1/INFO]: Client attempting to join with 4 mods : mcp@9.05,FML@7.10.84.1217,Forge@10.13.1.1217,techmod@1.0.0
+[15:34:19] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[15:34:19] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[15:34:19] [Client thread/INFO]: [Client thread] Client side modded connection established
+[15:34:19] [Server thread/INFO]: [Server thread] Server side modded connection established
+[15:34:19] [Server thread/INFO]: Player125[local:E:174740e7] logged in with entity id 320 at (-37.78427175377993, 69.0, -117.60969490597387)
+[15:34:19] [Server thread/INFO]: Player125 joined the game
+[15:34:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2463ms behind, skipping 49 tick(s)
+[15:34:29] [Server thread/INFO]: Saving and pausing game...
+[15:34:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:34:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:34:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:34:29] [Server thread/INFO]: Stopping server
+[15:34:29] [Server thread/INFO]: Saving players
+[15:34:29] [Server thread/INFO]: Saving worlds
+[15:34:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:34:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:34:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:34:30] [Server thread/INFO]: Unloading dimension 0
+[15:34:30] [Server thread/INFO]: Unloading dimension -1
+[15:34:30] [Server thread/INFO]: Unloading dimension 1
+[15:34:30] [Server thread/INFO]: Applying holder lookups
+[15:34:30] [Server thread/INFO]: Holder lookups applied
+[15:34:31] [Client thread/INFO]: Stopping!
+[15:34:32] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[15:34:32] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[15:34:32] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[15:34:32] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
