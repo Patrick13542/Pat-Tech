@@ -1,0 +1,19 @@
+package com.pattech.tabs;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+public class PatTechBlocks {
+	public static CreativeTabs tabPatTechBlocks = new CreativeTabs("PatTech Blocks") {
+	    @Override
+	    @SideOnly(Side.CLIENT)
+	    public Item getTabIconItem() {
+	        return Items.ender_eye;
+	        }
+			};
+
+
+}

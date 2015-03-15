@@ -1,0 +1,9 @@
+tile.oreCopper.name=Copper Ore
+tile.oreTin.name=Tin Ore
+tile.oreSilver.name=Silver Ore
+tile.orePitchblend.name=Pitchblend Ore
+item.ingotCopper.name=Copper Ingot
+item.ingotTin.name=Tin Ingot
+item.ingotSilver.name=Silver Ingot
+itemGroup.ptBlocks=Pat-Tech Blocks
+itemGroup.ptItems=Pat-Tech Items

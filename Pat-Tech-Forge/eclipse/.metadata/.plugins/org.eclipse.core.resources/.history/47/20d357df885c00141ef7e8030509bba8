@@ -1,7 +1,0 @@
-package com.hs.blocks;
-
-import net.minecraft.block.Block;
-
-public class WindMillBottum extends Block {
-
-}

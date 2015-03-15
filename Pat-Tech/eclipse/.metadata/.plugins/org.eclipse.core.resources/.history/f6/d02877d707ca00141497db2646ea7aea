@@ -1,0 +1,12 @@
+package com.pattech.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class CopperOre extends Block {
+
+	protected CopperOre(Material arg0) {
+		super(arg0);
+	}
+
+}

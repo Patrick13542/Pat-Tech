@@ -1,0 +1,16 @@
+package com.pattech.blocks;
+
+import com.pattech.main.Main;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class RubberWood extends Block {
+
+	public RubberWood(Material arg0) {
+		super(arg0);
+	
+		setBlockName("rubberWoodLog");
+	}
+	
+}

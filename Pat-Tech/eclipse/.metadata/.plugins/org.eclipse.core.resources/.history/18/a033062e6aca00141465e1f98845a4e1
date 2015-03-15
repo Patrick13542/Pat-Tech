@@ -1,0 +1,19 @@
+package com.pattech.blocks;
+
+import com.pattech.lib.Reference;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class CopperOre extends Block {
+
+	public CopperOre(Material arg0) {
+		super(arg0);
+		
+		setCreativeTab(CreativeTabs.tabBlock);
+		setBlockTextureName(Reference.MODID + ":oreCopper");
+		setBlockName("oreCopper");
+		setHardness(3F);
+	}
+}

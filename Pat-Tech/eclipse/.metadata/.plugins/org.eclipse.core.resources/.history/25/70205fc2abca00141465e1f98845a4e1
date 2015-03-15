@@ -1,0 +1,20 @@
+package com.pattech.blocks;
+
+import com.pattech.main.Main;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class RubberWood extends Block {
+
+	public RubberWood(Material arg0) {
+		super(arg0);
+		
+		setCreativeTab(Main.PatTechBlocks);
+		setBlockName("rubberWoodLog");
+		setHarvestLevel("axe", 1);
+		setStepSound(soundTypeWood);
+		setHardness(2.5F);
+	}
+	
+}

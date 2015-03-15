@@ -1,0 +1,50 @@
+package com.pattech.main;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+import com.pattech.blocks.CopperOre;
+import com.pattech.items.CopperIngot;
+import com.pattech.lib.Reference;
+import com.pattech.proxy.CommonProxy;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = Reference.MODID, version = Reference.VERSION, name = Reference.NAME)
+public class Main {
+	
+@SidedProxy(clientSide="com.pattech.proxy.ClientProxy", serverSide="com.pattech.proxy.CommonProxy")
+public static CommonProxy proxy;
+	
+	public static Block CopperOre = new CopperOre(Material.rock);
+	public static Item CopperIngot = new CopperIngot().setCreativeTab(CreativeTabs.tabMaterials).setUnlocalizedName("ingotCopper").setTextureName(Reference.MODID + ":ingotCopper");
+
+	public static OreGenerator OreGenerator = new OreGenerator();
+	
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+    	GameRegistry.registerBlock(CopperOre, "oreCopper");
+    	GameRegistry.registerItem(CopperIngot, "ingotCopper");
+    	
+    	GameRegistry.registerWorldGenerator(OreGenerator, 1);
+    }
+    
+    
+    @EventHandler
+    public void Init(FMLInitializationEvent event) {
+    	
+    }
+    
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+    	
+    }
+}
