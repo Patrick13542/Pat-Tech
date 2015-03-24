@@ -1,7 +1,0 @@
-package com.pattech.main;
-
-import net.minecraft.block.Block;
-
-public class RubberSapling extends Block {
-
-}

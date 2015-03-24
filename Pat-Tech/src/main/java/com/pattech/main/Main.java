@@ -15,6 +15,7 @@ import com.pattech.blocks.SilverOre;
 import com.pattech.blocks.TinOre;
 import com.pattech.generation.PatTechWorldGenerator;
 import com.pattech.items.CopperIngot;
+import com.pattech.items.Lighter;
 import com.pattech.items.SilverIngot;
 import com.pattech.items.TinIngot;
 import com.pattech.lib.Reference;
@@ -54,6 +55,7 @@ public static CreativeTabs PatTechItems = new PatTechItems(CreativeTabs.getNextI
 	public static Item CopperIngot = new CopperIngot().setCreativeTab(Main.PatTechItems).setUnlocalizedName("ingotCopper").setTextureName(Reference.MODID + ":ingotCopper");
 	public static Item TinIngot = new TinIngot().setCreativeTab(Main.PatTechItems).setUnlocalizedName("ingotTin").setTextureName(Reference.MODID + ":ingotTin");
 	public static Item SilverIngot = new SilverIngot().setCreativeTab(Main.PatTechItems).setUnlocalizedName("ingotSilver").setTextureName(Reference.MODID + ":ingotSilver");
+	public static Item Lighter = new Lighter().setCreativeTab(Main.PatTechItems).setUnlocalizedName("itemLighter").setTextureName(Reference.MODID + ":itemLighter");
 	
 	//Ore Generator
 	public static PatTechWorldGenerator OreGenerator = new PatTechWorldGenerator();
@@ -75,6 +77,7 @@ public static CreativeTabs PatTechItems = new PatTechItems(CreativeTabs.getNextI
     	GameRegistry.registerItem(CopperIngot, "ingotCopper");
     	GameRegistry.registerItem(TinIngot, "ingotTin");
     	GameRegistry.registerItem(SilverIngot, "ingotSilver");
+    	GameRegistry.registerItem(Lighter, "itemLighter");
     	
     	//Register World Generator
     	GameRegistry.registerWorldGenerator(OreGenerator, 1);

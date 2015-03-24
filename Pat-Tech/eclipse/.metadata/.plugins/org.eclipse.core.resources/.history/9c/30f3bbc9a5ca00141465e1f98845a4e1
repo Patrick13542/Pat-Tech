@@ -1,7 +1,0 @@
-package com.pattech.blocks;
-
-import net.minecraft.block.Block;
-
-public class RubberLeaf extends Block {
-
-}
