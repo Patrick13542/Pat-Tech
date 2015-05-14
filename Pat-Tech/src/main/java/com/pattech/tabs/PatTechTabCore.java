@@ -6,9 +6,9 @@ import net.minecraft.item.Item;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class PatTechItems extends CreativeTabs{
+public class PatTechTabCore extends CreativeTabs{
 
-	public PatTechItems(int id, String unlocalizedName) {
+	public PatTechTabCore(int id, String unlocalizedName) {
 		super(id, unlocalizedName); }
 		
 		@SideOnly(Side.CLIENT)
