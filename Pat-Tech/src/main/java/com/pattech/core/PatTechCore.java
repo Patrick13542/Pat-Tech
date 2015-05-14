@@ -4,16 +4,16 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.util.EnumHelper;
 
 import com.pattech.blocks.CopperOre;
+import com.pattech.blocks.IridiumOre;
 import com.pattech.blocks.PitchBlend;
 import com.pattech.blocks.SilverOre;
 import com.pattech.blocks.TinOre;
 import com.pattech.generation.PatTechOreGenerator;
 import com.pattech.items.CopperIngot;
+import com.pattech.items.IridiumIngot;
 import com.pattech.items.RadiumDust;
 import com.pattech.items.SilverIngot;
 import com.pattech.items.ThoriumDust;
@@ -45,6 +45,7 @@ public static CreativeTabs PatTechTabCore = new PatTechTabCore(CreativeTabs.getN
 	public static Block PitchBlend = new PitchBlend(Material.rock);
 	public static Block TinOre = new TinOre(Material.rock);
 	public static Block SilverOre = new SilverOre(Material.rock);
+	public static Block IridiumOre = new IridiumOre(Material.rock);
 	
 	//Items
 	public static Item CopperIngot = new CopperIngot().setCreativeTab(PatTechCore.PatTechTabCore).setUnlocalizedName("ingotCopper").setTextureName(Reference.MODID + ":ingotCopper");
@@ -53,6 +54,8 @@ public static CreativeTabs PatTechTabCore = new PatTechTabCore(CreativeTabs.getN
 	public static Item RadiumDust = new RadiumDust().setCreativeTab(PatTechCore.PatTechTabCore).setUnlocalizedName("dustRadium").setTextureName(Reference.MODID + ":itemRadiumDust");
 	public static Item UraniumDust = new UraniumDust().setCreativeTab(PatTechCore.PatTechTabCore).setUnlocalizedName("dustUranium").setTextureName(Reference.MODID + ":itemUraniumDust");
 	public static Item ThoriumDust = new ThoriumDust().setCreativeTab(PatTechCore.PatTechTabCore).setUnlocalizedName("dustThorium").setTextureName(Reference.MODID + ":itemThoriumDust");
+	public static Item IridiumIngot = new IridiumIngot().setCreativeTab(PatTechCore.PatTechTabCore).setUnlocalizedName("ingotIridium").setTextureName(Reference.MODID + ":");
+	
 	
 	//Ore Generator
 	public static PatTechOreGenerator OreGenerator = new PatTechOreGenerator();
@@ -65,6 +68,7 @@ public static CreativeTabs PatTechTabCore = new PatTechTabCore(CreativeTabs.getN
     	GameRegistry.registerBlock(PitchBlend, "orePitchblend");
     	GameRegistry.registerBlock(TinOre, "oreTin");
     	GameRegistry.registerBlock(SilverOre, "oreSilver");
+    	GameRegistry.registerBlock(IridiumOre, "oreIridium");
     	
     	//Register Items
     	GameRegistry.registerItem(CopperIngot, "ingotCopper");
@@ -73,6 +77,7 @@ public static CreativeTabs PatTechTabCore = new PatTechTabCore(CreativeTabs.getN
     	GameRegistry.registerItem(RadiumDust, "dustRadium");
     	GameRegistry.registerItem(UraniumDust, "dustUranium");
     	GameRegistry.registerItem(ThoriumDust, "dustThorium");
+    	GameRegistry.registerItem(IridiumIngot, "ingotIridium");
     	
     	//Register World Generator
     	GameRegistry.registerWorldGenerator(OreGenerator, 1);

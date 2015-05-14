@@ -43,7 +43,8 @@ public class PatTechOreGenerator implements IWorldGenerator {
 			(new WorldGenMinable(PatTechCore.PitchBlend, 5)).generate(world, random, chunkX, chunkY, chunkZ);
 			(new WorldGenMinable(PatTechCore.TinOre, 10)).generate(world, random, chunkX, chunkY, chunkZ);
 			(new WorldGenMinable(PatTechCore.SilverOre, 10)).generate(world, random, chunkX, chunkY, chunkZ);
-		
+			(new WorldGenMinable(PatTechCore.IridiumOre, 3)).generate(world, random, chunkX, chunkY, chunkZ);
+			
 		}
 	}
 
