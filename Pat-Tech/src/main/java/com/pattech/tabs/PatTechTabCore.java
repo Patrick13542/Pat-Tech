@@ -1,5 +1,7 @@
 package com.pattech.tabs;
 
+import com.pattech.core.PatTechCore;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -13,7 +15,7 @@ public class PatTechTabCore extends CreativeTabs{
 		
 		@SideOnly(Side.CLIENT)
 	    public Item getTabIconItem() {
-			return Items.ender_eye;
+			return PatTechCore.ThoriumDust;
 	}
 
 }
