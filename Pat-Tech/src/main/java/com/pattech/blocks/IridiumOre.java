@@ -1,24 +1,24 @@
 package com.pattech.blocks;
 
 
+import com.pattech.PatTechCore;
+import com.pattech.lib.Reference;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-
-import com.jcraft.jorbis.DspState;
-import com.pattech.core.PatTechCore;
-import com.pattech.lib.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 
 public class IridiumOre extends Block {
 
-	public IridiumOre(Material vd) {
-		super(vd);
+public static final String name = "IridiumOre" ;	
+	
+	public IridiumOre() {
+		super(Material.rock);
 		
-		setCreativeTab(PatTechCore.PatTechTabCore);
-		setBlockTextureName(Reference.MODID + ":");
-		setHarvestLevel("pickaxe", 3);
-		setBlockName("oreIridium");
-		setHardness(5F);
-
+		this.setUnlocalizedName(Reference.MODID + "_" + this.name) ;
+		this.setCreativeTab(PatTechCore.PatTechTabCore) ;
 	}
 
 }
+
+

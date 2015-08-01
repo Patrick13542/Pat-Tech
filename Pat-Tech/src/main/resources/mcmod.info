@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "pattech",
+  "name": "PatTech",
+  "description": "PatTech Aims to add realistic technology to Minecraft, all based on Theoretical, and Quantum Physics.",
+  "version": "1.0",
+  "mcversion": "${1.8}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Patrick13542, VenomousPine"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

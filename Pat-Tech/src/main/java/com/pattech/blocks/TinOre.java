@@ -1,6 +1,6 @@
 package com.pattech.blocks;
 
-import com.pattech.core.PatTechCore;
+import com.pattech.PatTechCore;
 import com.pattech.lib.Reference;
 
 import net.minecraft.block.Block;
@@ -9,14 +9,13 @@ import net.minecraft.creativetab.CreativeTabs;
 
 public class TinOre extends Block {
 
-	public TinOre(Material arg0) {
-		super(arg0);
+public static final String name = "TinOre" ;	
+	
+	public TinOre() {
+		super(Material.rock);
 		
-		setCreativeTab(PatTechCore.PatTechTabCore);
-		setBlockTextureName(Reference.MODID + ":oreTin");
-		setHarvestLevel("pickaxe", 1);
-		setBlockName("oreTin");
-		setHardness(5F);
+		this.setUnlocalizedName(Reference.MODID + "_" + this.name) ;
+		this.setCreativeTab(PatTechCore.PatTechTabCore) ;
 	}
 
 }

@@ -1,21 +1,23 @@
 package com.pattech.blocks;
 
-import com.pattech.core.PatTechCore;
-import com.pattech.lib.Reference;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
+import com.pattech.PatTechCore;
+import com.pattech.lib.Reference;
+
 public class CopperOre extends Block {
 
-	public CopperOre(Material arg0) {
-		super(arg0);
+public static final String name = "CopperOre" ;	
+	
+	public CopperOre() {
+		super(Material.rock);
 		
-		setCreativeTab(PatTechCore.PatTechTabCore);
-		setBlockTextureName(Reference.MODID + ":oreCopper");
-		setHarvestLevel("pickaxe", 1);
-		setBlockName("oreCopper");
-		setHardness(5F);
+		this.setUnlocalizedName(Reference.MODID + "_" + this.name) ;
+		this.setCreativeTab(PatTechCore.PatTechTabCore) ;
+
 	}
+
 }
