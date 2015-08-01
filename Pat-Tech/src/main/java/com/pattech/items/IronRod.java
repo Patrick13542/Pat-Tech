@@ -1,0 +1,21 @@
+package com.pattech.items;
+
+import com.pattech.PatTechCore;
+import com.pattech.lib.Reference;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class IronRod extends Item {
+	
+public static final String name = "IronRod" ;
+	
+	public IronRod() {
+		super();
+		
+		this.setUnlocalizedName(Reference.MODID + "_" + this.name) ;
+		this.setCreativeTab(PatTechCore.PatTechTabCore) ;
+
+
+	}
+}

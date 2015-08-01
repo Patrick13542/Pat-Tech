@@ -1,0 +1,12 @@
+package com.pattech.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class SilverOre extends Block {
+
+	public SilverOre(Material materialIn) {
+		super(materialIn);
+	}
+
+}

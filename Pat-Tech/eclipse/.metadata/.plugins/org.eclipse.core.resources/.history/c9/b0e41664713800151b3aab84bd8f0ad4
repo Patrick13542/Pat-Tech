@@ -1,0 +1,38 @@
+package com.pattech.blocks;
+
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class BlockManager {
+
+public static CopperOre copperOre;
+public static IridiumOre iridiumOre;
+public static PitchBlend pitchBlend;
+public static SilverOre silverOre;
+public static TinOre tinOre;
+
+
+
+	
+	public static void mainRegistry() {
+		initializeBlock();
+		registerBlock();
+	}
+	
+	public static void initializeBlock() {
+		copperOre = new CopperOre();
+		iridiumOre = new IridiumOre();
+		pitchBlend = new PitchBlend();
+		silverOre = new SilverOre();
+		tinOre = new TinOre();
+	}
+	
+	public static void registerBlock() {
+		
+		GameRegistry.registerBlock(copperOre, copperOre.name);
+		GameRegistry.registerBlock(iridiumOre, iridiumOre.name);
+		GameRegistry.registerBlock(tinOre, tinOre.name);
+		GameRegistry.registerBlock(silverOre, silverOre.name);
+		GameRegistry.registerBlock(pitchBlend, pitchBlend.name);
+		
+	}
+}	

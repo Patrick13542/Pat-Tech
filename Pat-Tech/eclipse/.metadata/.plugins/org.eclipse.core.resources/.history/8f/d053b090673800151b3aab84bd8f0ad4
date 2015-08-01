@@ -1,0 +1,18 @@
+package com.pattech.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class PitchBlend extends Block {
+
+public static final String name = "Pitchblend" ;	
+	
+	public PitchBlend(Material materialIn) {
+		super(materialIn);
+
+	}
+
+
+}
+
+

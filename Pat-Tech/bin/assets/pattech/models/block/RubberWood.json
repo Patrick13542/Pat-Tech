@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"up": "pattech:blocks/RubberWood_top",
+        		"down": "pattech:blocks/RubberWood_bottum",
+        		"north": "pattech:blocks/RubberWood_side",
+        		"south": "pattech:blocks/RubberWood_side",
+        		"east": "pattech:blocks/RubberWood_side",
+        		"west": "pattech:blocks/RubberWood_side",
+        		"particle": "pattech:blocks/RubberWood_side"
+	}
+}

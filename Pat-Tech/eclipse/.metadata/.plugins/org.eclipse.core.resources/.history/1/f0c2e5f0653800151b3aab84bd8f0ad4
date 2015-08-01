@@ -1,0 +1,9 @@
+package com.pattech.blocks;
+
+public class BlockManager {
+	
+	public static void mainRegistry() {
+		initializeBlock();
+		registerBlock();
+	}
+}

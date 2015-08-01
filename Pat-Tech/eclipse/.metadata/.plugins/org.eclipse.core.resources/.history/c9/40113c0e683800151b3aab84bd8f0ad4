@@ -1,0 +1,26 @@
+package com.pattech.blocks;
+
+public class BlockManager {
+
+public static CopperOre copperOre;
+public static IridiumOre iridiumOre;
+public static PitchBlend pitchBlend;
+public static SilverOre silverOre;
+public static TinOre tinOre;
+
+
+
+	
+	public static void mainRegistry() {
+		initializeBlock();
+		registerBlock();
+	}
+	
+	public static void initializeBlock() {
+		copperOre = new CopperOre();
+	}
+	
+	public static void registerBlock() {
+		
+	}
+}	

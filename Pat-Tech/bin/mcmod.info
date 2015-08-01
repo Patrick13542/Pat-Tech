@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pattech",
+  "name": "PatTech",
+  "description": "PatTech Aims to add realistic technology to Minecraft, all based on Theoretical, and Quantum Physics.",
+  "version": "1.0",
+  "mcversion": "${1.8}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Patrick13542, VenomousPine"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
