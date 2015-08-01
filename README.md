@@ -1,2 +1,2 @@
-# Pat-Tech
-Pat-Tech is a Modification or "Mod" for the popular game Minecraft. The goal of Pat-Tech is to add new tools and machines to aid the player in their conquest for world domination.
+# PatTech
+PatTech is a Modification or "Mod" for the popular game Minecraft. PatTech aims to add realistic technology to Minecraft, all based on Theoretical and Quantum Physics.
